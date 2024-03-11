@@ -16,11 +16,5 @@ namespace JumpKing_FreeFlyKingMod
                 player.m_body.RegisterBehaviour(new Behaviours.FreeFlyKingBehaviour());
             }
         }
-
-        [OnLevelEnd]
-        public static void OnLevelEnd()
-        {
-            
-        }
     }
 }
